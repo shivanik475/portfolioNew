@@ -1,0 +1,11 @@
+.about{
+    &__content{
+        display: flex;
+        gap: 20px;
+        padding: 20px;
+        width: 100%;
+    }
+    h3.personalInformationText {
+        padding-top: 20px;
+    }
+}

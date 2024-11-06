@@ -1,0 +1,7 @@
+.App{
+    background: rgb(223, 193, 193);
+    height: 100%;
+    &__main-page-content{
+        height: calc(100% - 80px);
+    }
+}
