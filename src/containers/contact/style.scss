@@ -1,0 +1,44 @@
+.contact{
+    &__content{
+        padding: 20px;
+        &__header-text{
+            font-size: 22px;
+            font-weight: 600;
+            display: inline-block;
+            line-height: 1em;
+            letter-spacing: 0.5px;
+            position: relative;
+            text-transform: uppercase;
+            padding: 5px 10px;
+        }
+        &__form{
+            margin-top: 30px;
+        }
+        &__controlswrapper{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 40px;
+            margin-bottom: 30px;
+            div{
+            position: relative;
+              
+            .inputName,
+            .inputEmail,
+            .inputMobile{
+            width:100%;
+            padding: 80px 50px; // Increased padding to make the box bigger
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            outline: none;
+            font-size: 16px;
+            transition: all 0.3s ease;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            &:focus{
+            border-color: #007BFF;
+            box-shadow: 0 0 8px rgba(0, 123, 255, 0.25);
+            }
+            }
+            }
+        }
+    }
+}

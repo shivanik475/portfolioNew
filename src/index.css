@@ -1,0 +1,181 @@
+/* Basic CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* General Styles */
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1, h2, h3 {
+  color: #444;
+  margin-bottom: 20px;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+/* Navigation */
+nav {
+  background-color: #dddee9;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: #ddd;
+}
+
+/* Header */
+header {
+  background-color: #6c63ff;
+  color: #fff;
+  padding: 100px 0;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 3rem;
+}
+
+header p {
+  font-size: 1.2rem;
+}
+
+/* About Section */
+#about {
+  padding: 50px 0;
+}
+
+#about img {
+  width: 150px;
+  border-radius: 50%;
+  margin: 20px 0;
+}
+
+#about h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+#about p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+/* Projects Section */
+#projects {
+  padding: 50px 0;
+  background-color: #eaeaea;
+}
+
+.project-card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.project-card img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.project-card h3 {
+  margin-top: 15px;
+}
+
+.project-card p {
+  font-size: 0.95rem;
+}
+
+/* Contact Section */
+#contact {
+  padding: 50px 0;
+}
+
+#contact form {
+  display: flex;
+  flex-direction: column;
+}
+
+#contact form input,
+#contact form textarea {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#contact form button {
+  background-color: #6c63ff;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+#contact form button:hover {
+  background-color: #555;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer p {
+  margin-bottom: 0;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .container {
+    width: 95%;
+  }
+
+  header h1 {
+    font-size: 2.5rem;
+  }
+  
+  nav ul li {
+    display: block;
+    margin: 10px 0;
+  }
+
+  #about img {
+    width: 120px;
+  }
+}
